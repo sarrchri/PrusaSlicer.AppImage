@@ -10,7 +10,7 @@ pacman -Syu --noconfirm prusa-slicer
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common
 
 # Comment this out if you need an AUR package
 #make-aur-package PACKAGENAME
