@@ -16,7 +16,8 @@ export PATH_MAPPING_HARDCODED='prusa-slicer'
 # Deploy dependencies
 quick-sharun \
 	/usr/bin/prusa-slicer* \
-	/usr/share/PrusaSlicer
+	/usr/share/PrusaSlicer \
+	/usr/lib/libnss_myhostname.so*
 
 # Additional changes can be done in between here
 
