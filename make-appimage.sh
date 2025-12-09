@@ -17,8 +17,8 @@ export PATH_MAPPING_HARDCODED='prusa-slicer'
 quick-sharun \
 	/usr/bin/prusa-slicer* \
 	/usr/share/PrusaSlicer \
-	/usr/lib/libnss_myhostname.so*
-
+	/usr/lib/libnss_myhostname.so* \
+	/usr/lib/libnss_mdns4_minimal.so*
 # Additional changes can be done in between here
 
 # Turn AppDir into AppImage
