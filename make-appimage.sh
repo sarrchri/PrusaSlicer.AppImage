@@ -12,6 +12,7 @@ export ICON=/usr/share/icons/hicolor/192x192/apps/PrusaSlicer.png
 export DESKTOP=/usr/share/applications/PrusaSlicer.desktop
 export LOCALE_FIX=1
 export PATH_MAPPING_HARDCODED='prusa-slicer'
+export DEPLOY_P11KIT=1
 
 # Deploy dependencies
 quick-sharun \
